@@ -1,0 +1,53 @@
+Assignment on Module-13
+Laravel Foundation Step-12
+
+Part 1: Laravel Installation
+1.	First of all, composer has been installed from the website  https://getcomposer.org/download/
+2. Downloaded and run Composer-Setup.exe
+3. Installed the composer.
+4. Path should be c:/php/php.exe
+5. In php.ini file, semicolon has been omitted from the file in the extension.zip and extension.gd file.
+6. In command prompt, we have given the following command:
+        composer create-project laravel/laravel example-app
+7. We have opened visual studio code 
+8. In the terminal we have given the commad:
+        update --ignore-platform-reqs
+9. We have given the following command:
+        php artisan key: generate
+10. We have given the command:
+        php artisan serve
+11. Running the server:
+    screenshot has been attached.
+
+
+
+
+
+Part 2: Laravel folder Structure
+In a Laravel project, the purpose of each of the following folders is as follows:
+app: This folder contains the core application logic and code. The majority of the application's logic resides in this folder, including controllers, models, views, and other classes.
+
+bootstrap: This folder contains the bootstrap files for the application. It includes the configuration settings for the environment, the application, and the service providers.
+
+config: This folder contains all the configuration files required by the application. These files include database connections, mail settings, and other application-specific configurations.
+
+database: This folder contains all the database-related files for the application. These files include migration files, seeders, and database factories.
+
+public: This folder is the public root of the application and is the only folder that is publicly accessible. It contains the index.php file that is the entry point of the application, as well as other public assets such as images, CSS, and JavaScript files.
+
+resources: This folder contains all the resources that are used by the application, including views, language files, and asset files such as SASS and LESS.
+
+routes: This folder contains all the route definitions for the application. These files define the HTTP methods and endpoints that are available to the application.
+
+storage: This folder contains all the storage-related files for the application, including log files, cache files, and uploaded files.
+
+tests: This folder contains all the test files for the application, including unit tests, feature tests, and integration tests.
+
+vendor: This folder contains all the third-party packages and dependencies that are required by the application. This folder is managed by Composer and should not be manually edited.
+----------------------------------------------------------------------------------------------------------------
+Creating a new route in Laravel project displaying   Hello, World!
+Screenshot has been given.
+
+
+
+
